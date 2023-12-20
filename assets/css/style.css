@@ -1,31 +1,36 @@
-/* Asterisk wildcard selector to overide default browser styles */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* General Styles */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-}
-/* Header */
-header {
-    background-color: lightcoral;
-}
+    /* Asterisk wildcard selector to overide default browser styles */
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 
-/* Main content */
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-}
+    /* General Styles */
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* Generic project styles */
+        color: #3a3a3a;
+        font-family: 'Lato', sans-serif; 
+    }
 
-/* Footer */
-footer {
-    background-color: orange;
-}
+    /* Header */
+    header {
+        background-color: lightcoral;
+    }
+
+    /* Main content */
+    main {
+        background-color: lightblue;
+        /* Make main element take up any surplus space to push footer down */
+        flex: 1 0 auto;
+    }
+
+    /* Footer */
+    footer {
+        background-color: orange;
+    }
