@@ -205,6 +205,11 @@ main {
     line-height: 0;
 }
 
+/* Form styles */
+#signup-form {
+    display: flex;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
